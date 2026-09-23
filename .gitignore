@@ -1,0 +1,15 @@
+.gradle/
+local.properties
+**/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+.cxx/
+.externalNativeBuild/
+# Omitted because Codex Cloud's PR exporter does not accept binary patches.
+# Regenerate it locally with Gradle 8.10.2 as described in README.md.
+gradle/wrapper/gradle-wrapper.jar
+*.iml
+.idea/
